@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* height: 2000px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar-pos{
+    position: relative;
+    z-index: 2;
+    background-color: rgba(168, 168, 171, 0.092) !important;
+}
+.img-style{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    /* color: blue; */
+    background-image:linear-gradient(#000000ec,#443a3ad6),url("7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.created{
+    position: relative;
+    left: 0%;
+    top: 200px;
+    z-index: 2;
+    color: #ffffff;
+    /* width: 500px; */
+}
+.but{
+    background-color: #11af22;
+    border-color: #11af22;
+}
+.mndiv{
+    position: relative;
+    top: 450px;
+    /* padding-left: 245px; */
+}
+.cardings{
+    position: relative;
+    top: 550px;
+    /* padding-left: 45px; */
+}
+/* .third-card{
+    /* float: left; 
+    /* display: inline-block; 
+    position: relative;
+    left: 20px;
+} */
+
+.card-image:hover{
+    transform: scale(1.1);
+    transition: all ease 2s;
+}
+.mobile{
+    position: relative;
+    top: 700px;
+    /* width: 1350px; */
+    /* height: 400px; */
+}
+.collection{
+    position: relative;
+    top: 885px;
+    /* padding-left: 245px; */
+
+}
+.font-awesome{
+    position: relative;
+    top: 1024px;
+}
+.top{
+    margin-top: 4px;
+}
+.fa{
+    position: relative;
+    left: -50px;
+    top: 38px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+.img-move{
+    position: relative;
+    top: 1050px;
+    background-color: rgb(0, 106, 255);
+}
+.last{
+    position: relative;
+    /* top: 1150px; */
+    z-index: 2;
+}
+.change-color{
+    /* background-color: #79f8ff; */
+    position: relative;
+    top: 1150px;
+    z-index: 1;
+}
+.foot{
+    position: relative;
+    top: 1190px;
+}
+.animation{
+    transition: all ease 3s;
+}
